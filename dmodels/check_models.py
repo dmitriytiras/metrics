@@ -39,13 +39,14 @@ if __name__ == '__main__':
             dae_list_from_dir.append(file)
 
     models_list_from_xml, dae_models_id_from_xml = parseObjectsXML(file_objects_xml)
-    print(len(dae_models_id_from_xml))
-    print(len(dae_list_from_dir))
-    # for model in dae_models_from_xml:
-    #      if not(findInList(model[1], dae_list)):
-    #          print(model[1])
+    print(f'Amount of models in the objects.xml {len(dae_models_id_from_xml)}')
+    print(f'Amount of models in the folder {len(dae_list_from_dir)}')
+    print(' ------ models from objects.xml which are not in folder ------')
+    for model in dae_models_id_from_xml:
+        if not (findInList(model[1], dae_list_from_dir)):
+            print(model[1])
 
-    # print(dae_models_from_xml[1])
+    print(' ------ models from folders which are not in objects.xml ------')
     for model in dae_list_from_dir:
-        if not(findInList(model, models_list_from_xml)):
+        if not (findInList(model, models_list_from_xml)):
             print(model)
