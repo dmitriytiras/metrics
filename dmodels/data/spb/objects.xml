@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildings>
+	<building lat="59.955447278507" lon="30.337813494598" direction_lat="59.957978579792" direction_lon="30.348403104662">
+		<part id="5348660254876030" model="avrora.dae" />
+	</building>
+	<building lat="59.943480043021" lon="30.304552203394" direction_lat="59.946459716429" direction_lon="30.314663640232">
+		<part id="5348660212662972" model="warehouse.dae" />
+	</building>
+	<building lat="59.938046485288" lon="30.307747421028" direction_lat="59.941639844299" direction_lon="30.316957039152">
+		<part id="5348660212663211" model="admiralty2.dae" />
+		<part id="5348660212663270" model="admiralty3.dae" />
+		<part id="5348660212663226" model="admiralty1.dae" />
+	</building>
+	<building lat="59.923326330661" lon="30.308826567179" direction_lat="59.923195187632" direction_lon="30.320542754441">
+		<part id="5348660212812152" model="houseofcityestablishments1.dae" />
+		<part id="5348660212669871" model="houseofcityestablishments.dae" />
+	</building>
+	<building lat="59.976524895833" lon="30.320907380614" direction_lat="59.971182438465" direction_lon="30.315995931630">
+		<part id="5348660231303924" model="tvtower.dae" />
+	</building>
+	<building lat="59.979312026316" lon="30.269946763030" direction_lat="59.979004743777" direction_lon="30.281669507993">
+		<part id="5348660212715365" model="elaginpalace.dae" />
+	</building>
+	<building lat="59.883923795761" lon="29.908152078981" direction_lat="59.882348672648" direction_lon="29.919428720575">
+		<part id="5348660212763296" model="petergof.dae" />
+	</building>
+	<building lat="59.854765368175" lon="30.446498864193" direction_lat="59.858489944770" direction_lon="30.437444924108">
+		<part id="5348660227188173" model="overpass.dae" />
+	</building>
+	<building lat="59.965889836394" lon="30.312988641553" direction_lat="59.965266881041" direction_lon="30.324656768947">
+		<part id="5348660212745170" model="rosensteinhouse.dae" />
+	</building>
+	<building lat="59.922128961614" lon="30.298340353204" direction_lat="59.924346914550" direction_lon="30.309195235772">
+		<part id="5348660212793909" model="belltowernikolskiysobor.dae" />
+	</building>
+	<building lat="59.965638092801" lon="30.273406714178" direction_lat="59.971221504239" direction_lon="30.269709967121">
+		<part id="5348660229306370" model="lazarevsky.dae" />
+	</building>
+	<building lat="59.891499345019" lon="30.319424351912" direction_lat="59.891656389224" direction_lon="30.331128052591">
+		<part id="5348660212797711" model="moscowgate.dae" />
+	</building>
+	<building lat="60.021139360190" lon="30.369998514261" direction_lat="60.021637961870" direction_lon="30.381738057720">
+		<part id="5348660212761727" model="cniirtk.dae" />
+		<part id="5348660212761732" model="cniirtk2.dae" />
+	</building>
+	<building lat="59.906792371419" lon="30.299020377874" direction_lat="59.906298254124" direction_lon="30.310720305629">
+		<part id="5348660212703388" model="baltiyskiyrws.dae" />
+		<part id="5348660212703365" model="baltiyskiyrws1.dae" />
+	</building>
+	<building lat="59.987147059547" lon="30.177041559042" direction_lat="59.987147059547" direction_lon="30.188811375726">
+		<part id="5348660212839445" model="lahtacentre.dae" />
+	</building>
+	<building lat="59.939017433023" lon="30.315799559909" direction_lat="59.942523443991" direction_lon="30.325240763713">
+		<part id="70030076171677094" model="aleksandorvskaya.dae" />
+	</building>
+	<building lat="59.864281097874" lon="29.925023787490" direction_lat="59.862617996837" direction_lon="29.936272581309">
+		<part id="5348660212761099" model="newpetergovrws.dae" />
+	</building>
+	<building lat="59.955232651174" lon="30.323925270811" direction_lat="59.949541416408" direction_lon="30.326937321959">
+		<part id="5348660212730924" model="mosque.dae" />
+	</building>
+	<building lat="59.856946095528" lon="30.330910750124" direction_lat="59.856798179958" direction_lon="30.319190789938">
+		<part id="5348660212793509" model="chesmenskayacherch.dae" />
+	</building>
+	<building lat="59.715971814527" lon="30.395611459305" direction_lat="59.710993785204" direction_lon="30.389377690222">
+		<part id="5348660212773281" model="ekaterininskiydvorec.dae" />
+	</building>
+	<building lat="59.924716243834" lon="30.291738274855" direction_lat="59.919336208194" direction_lon="30.296510484971">
+		<part id="5348660212679477" model="greatchoralsynagogue.dae" />
+	</building>
+	<building lat="59.925490543469" lon="30.296092858195" direction_lat="59.927862488931" direction_lon="30.306844973494">
+		<part id="5348660212793799" model="mariinskiy2.dae" />
+		<part id="5348660212679052" model="mariinskiy1.dae" />
+	</building>
+	<building lat="59.940392649919" lon="30.337762290627" direction_lat="59.942315617054" direction_lon="30.348870767599">
+		<part id="5348660212688588" model="mikhailcastle.dae" />
+	</building>
+	<building lat="59.922483233562" lon="30.300097727395" direction_lat="59.924897170465" direction_lon="30.310811754125">
+		<part id="5348660212679157" model="nikolskiysobor.dae" />
+	</building>
+	<building lat="59.991794624941" lon="29.777831234926" direction_lat="59.989523132518" direction_lon="29.788691237890">
+		<part id="5348660212775109" model="morskoysobor.dae" />
+	</building>
+	<building lat="59.900901582216" lon="30.273839252988" direction_lat="59.903152441834" direction_lon="30.284686589706">
+		<part id="5348660212740581" model="nargate.dae" />
+	</building>
+	<building lat="59.950168086204" lon="30.316410414302" direction_lat="59.952674916795" direction_lon="30.327047904570">
+		<part id="5348660212768512" model="petropavlovsky.dae" />
+	</building>
+	<building lat="59.799162261662" lon="30.270395830841" direction_lat="59.804816089637" direction_lon="30.273655008523">
+		<part id="5348660212818757" model="pulkovo.dae" />
+	</building>
+	<building lat="59.940063047637" lon="30.328809680506" direction_lat="59.938893416812" direction_lon="30.340328507899">
+		<part id="5348660212686652" model="savioronspilledblood.dae" />
+	</building>
+	<building lat="59.948847391985" lon="30.395395144984" direction_lat="59.948669565007" direction_lon="30.407146007216">
+		<part id="5348660212712692" model="smolnycathedral.dae" />
+	</building>
+	<building lat="59.944320716951" lon="30.283510515336" direction_lat="59.941351965151" direction_lon="30.273359732289">
+		<part id="5348660212669924" model="soborlutiran.dae" />
+	</building>
+	<building lat="59.951718133255" lon="30.295366749951" direction_lat="59.950722906929" direction_lon="30.306954837453">
+		<part id="5348660212732260" model="stvladimircathedral.dae" />
+	</building>
+	<building lat="59.928194238072" lon="30.348316417237" direction_lat="59.928026428338" direction_lon="30.360060542104">
+		<part id="5348660212719021" model="soborvladimera.dae" />
+	</building>
+	<building lat="59.973029403452" lon="30.220404315785" direction_lat="59.972987507808" direction_lon="30.232168832409">
+		<part id="5348660248566050" model="stadiumspb.dae" />
+	</building>
+	<building lat="59.916465319419" lon="30.305850358811" direction_lat="59.916611708831" direction_lon="30.317591519238">
+		<part id="5348660212705546" model="troitskiysobor.dae" />
+	</building>
+	<building lat="59.935849114396" lon="30.325908211970" direction_lat="59.934498821689" direction_lon="30.337346550314">
+		<part id="5348660212679602" model="zingerhouse.dae" />
+	</building>
+	<building lat="59.934235903350" lon="30.324500282425" direction_lat="59.935877871199" direction_lon="30.313215466163">
+		<part id="5348660212665807" model="kazansky.dae" />
+	</building>
+	<building lat="59.853940018902" lon="30.493093489834" direction_lat="59.854378343044" direction_lon="30.504783625952">
+		<part id="5348660229227783" model="bigobuhovskiybridge.dae" />
+	</building>
+</buildings>
