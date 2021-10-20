@@ -30,6 +30,7 @@ dmodels/data/*
 .idea/*
 missing_models.txt
 moscow.xlsx
+.DS_Store
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
