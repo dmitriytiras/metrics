@@ -28,6 +28,8 @@ share/python-wheels/
 MANIFEST
 dmodels/data/*
 .idea/*
+missing_models.txt
+moscow.xlsx
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
