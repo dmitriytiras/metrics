@@ -27,6 +27,7 @@ share/python-wheels/
 *.egg
 MANIFEST
 dmodels/data/*
+*/data/*
 .idea/*
 missing_models.txt
 moscow.xlsx
