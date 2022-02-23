@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-import json
 from decouple import config
 
 HEADERS = {
@@ -11,15 +10,19 @@ HEADERS = {
 }
 
 
+def get_link(inn):
+    url_search = config('URL_SEARCH') + inn + config('URL_SEARCH_ACTION')
+    r = requests.get(url_search, headers=HEADERS)
+    link = r.json().get('ul')[0].get('link')
+    return link
+
+
 def get_html(url, params=None):
-    # r = requests.get(url, headers=HEADERS, params=params)
-    print(url)
-    print(HEADERS)
     r = requests.get(url=url, headers=HEADERS)
     return r
 
 
-def get_content(html):
+def get_company_contacts(html):
     soup = BeautifulSoup(html, 'html.parser')
     phones = soup.find_all('a', href=re.compile('tel:'))
     sites = soup.find_all('a', href=re.compile('http://'))
@@ -48,31 +51,18 @@ def get_content(html):
     return company_contacts
 
 
-def parse():
-    url = config('URL')
+def parse(url):
     html = get_html(url)
     if html.status_code == 200:
-        company_contacts = get_content(html.text)
+        company_contacts = get_company_contacts(html.text)
     else:
+        company_contacts = ''
         print('Something wrong')
-    # print(company_telephones)
     return company_contacts
 
 
-def get_contacts():
-    companies_contacts = []
-    # company = {'INN': '10717383'}
-    company_info = {'company_info': {'INN': '2310031475'}}
-    companies_contacts.append(company_info)
-    companies_contacts.append({
-        'company_contacts': parse()
-    })
-    print(companies_contacts)
-    json_data = json.dumps(companies_contacts, indent=4, ensure_ascii=False)
-    with open(config('file_legal_w_contacts'), 'w') as file:
-        file.write(json_data)
-    file.close()
-
-
-if __name__ == '__main__':
-    get_contacts()
+def get_contacts(inn):
+    company_info = {'company_info': {'INN': inn,
+                                     'link': config('URL') + get_link(inn),
+                                     'company_contacts': parse(config('URL') + get_link(inn))}}
+    return company_info

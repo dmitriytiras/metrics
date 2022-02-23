@@ -1,6 +1,4 @@
 import os
-from decouple import config
-from datetime import datetime as dt
 import pandas as pd
 
 
