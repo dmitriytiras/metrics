@@ -13,11 +13,7 @@ def md5(fname):
 if __name__ == '__main__':
     out_dir = config('OUT_PATH')
     m5 = config('M5')
-
     df = pd.read_csv(m5, sep='  ', engine='python')
-    # print(df.head(10))
-    # print(df.loc[df['filename'].str.strip() == 'tiles_16.zip.001']['hash'].values[0])
-
     for file in os.listdir(out_dir):
         hash_file = md5(out_dir + '/' + file)
         if df.loc[df['filename'] == file]['hash'].values[0] == hash_file:

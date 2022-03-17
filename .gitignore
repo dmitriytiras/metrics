@@ -30,6 +30,7 @@ dmodels/data/*
 */data/*
 */result/*
 .idea/*
+saudibell_wget/data
 missing_models.txt
 moscow.xlsx
 .DS_Store
