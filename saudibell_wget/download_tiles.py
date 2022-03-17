@@ -20,6 +20,6 @@ if __name__ == '__main__':
         start_time = time.time()
         file = f'tiles_16.zip.0{i}'
         print(f'-------------------- {file} -----------')
-        wget.download(getFullFtpPath()+ file, out=out_path)
+        wget.download(getFullFtpPath() + file, out=out_path)
         print(f' elapsed time download {file}: ', str(timedelta(seconds=time.time() - start_time)))
         print(f' general elapsed time download {file}: ', str(timedelta(seconds=time.time() - first_start_time)))
