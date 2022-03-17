@@ -1,3 +1,5 @@
+import os.path
+
 from decouple import config
 import wget
 import time
@@ -16,10 +18,13 @@ if __name__ == '__main__':
     first_start_time = time.time()
     out_path = config('OUT_PATH')
 
-    for i in range(14, 49):
+    for i in range(15, 49):
         start_time = time.time()
         file = f'tiles_16.zip.0{i}'
-        print(f'-------------------- {file} -----------')
-        wget.download(getFullFtpPath() + file, out=out_path)
-        print(f' elapsed time download {file}: ', str(timedelta(seconds=time.time() - start_time)))
-        print(f' general elapsed time download {file}: ', str(timedelta(seconds=time.time() - first_start_time)))
+        if os.path.isdir(out_path):
+            print(f'-------------------- downloading {file} to {out_path} -----------')
+            wget.download(getFullFtpPath() + file, out=out_path)
+            print(f' elapsed time download {file}: ', str(timedelta(seconds=time.time() - start_time)))
+            print(f' general elapsed time download {file}: ', str(timedelta(seconds=time.time() - first_start_time)))
+        else:
+            print(f'the folder {out_path} does not exist')
